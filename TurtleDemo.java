@@ -44,7 +44,7 @@ public class TurtleDemo
         World ocean = new World(); // Like the canvas for drawing on with Turtle objects
         Turtle crush = new Turtle(ocean); // place a new Turtle into the 'ocean' world
         Turtle leo = new Turtle(ocean); // a second Turtle
-        crush.setPenColor(Color.BLUE);
+        crush.setPenColor(Color.ORANGE);
         crush.penDown();
         crush.forward(50);
         
