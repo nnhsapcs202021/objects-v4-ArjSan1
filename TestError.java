@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Test
+public class TestError
 
 {
    public static void main(String[] args)
@@ -22,7 +22,7 @@ public class Test
  * 
  * d. Remove last quotation mark - there will be a compile-time error
  * 
- * e. Change main to man - there will be a compile-time error
+ * e. Change main to man - there will be a runtime-time error
  * 
  * f. Change println to bogus - there will be a compile-time error.
  * 
