@@ -10,7 +10,7 @@ public class TestError
 {
    public static void main(String[] args)
    {
-      String mis = new String ("An Emergency broadcast");
+      System.out.print("An Emergency broadcast");
       
    }
 }
