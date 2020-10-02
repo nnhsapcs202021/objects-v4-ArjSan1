@@ -11,7 +11,7 @@ public class TurtleLab
     Turtle turtle = new Turtle(myWorld);
     Turtle t = new Turtle(myWorld);
     Turtle u = new Turtle(myWorld);
-    
+    Turtle r = new Turtle(myWorld);
     public void TurtleRecursion(int sideNum, int sideLen) {
         // Various methods
         wumbo.hide();
@@ -29,6 +29,9 @@ public class TurtleLab
         u.hide();
         u.setPenColor(Color.BLACK);
         u.setPenWidth(3);
+        r.hide();
+        r.setPenColor(Color.MAGENTA);
+        r.setPenWidth(3);
         // Recursive Algorithm
         for (int i = 0;  i < sideNum; i++) {
             int angle = (360/sideNum);       
@@ -42,24 +45,29 @@ public class TurtleLab
             wumbo.turn(angle);
             u.forward(sideLen);
             u.turn(angle);
+            r.forward(sideLen);
+            r.turn(angle);
         }
         // Methods to make turtle move
-        u.forward(1);
+        r.forward(1);
+        r.turn(4);
+        
+        u.forward(2);
         u.turn(4);
         
-        t.forward(2);
+        t.forward(3);
         t.turn(4);
         
         
-        wumbo.forward(3);
+        wumbo.forward(4);
         wumbo.turn(4);
         
         
-        argon.forward(4);
+        argon.forward(5);
         argon.turn(4);
         
         
-        turtle.forward(5);
+        turtle.forward(6);
         turtle.turn(4);
         
         
